@@ -1,0 +1,52 @@
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-width: 100vw;
+    padding: 5px 6px;
+}
+
+header .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 4px 8px;
+}
+
+header .user-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .logo-container img {
+    width: 50px;
+    height: 50px;
+}
+
+header .text-container h3 {
+    font-family: 'Arial Narrow Regular';
+    color: var(--black-text);
+    font-weight: normal;
+    font-size: 1em;
+}
+
+header .user-name p {
+    font-family: 'Arial Narrow Italic';
+    color: var(--gray-text);
+    font-size: 0.9em;
+}
+
+header .left-line {
+    width: 8px;
+    height: 1px;
+    background-color: var(--gray-text);
+    margin: 0 3px;
+}
+
+header .right-line {
+    width: 32px;
+    height: 1px;
+    background-color: var(--gray-text);
+    margin: 0 3px;
+}
