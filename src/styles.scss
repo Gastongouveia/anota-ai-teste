@@ -6,7 +6,14 @@
     --blue: #0058fe;
     --green: #958a0c;
     --black-text: #000000;
-    --gray-text: #6c6c6c;
+    --gray-text: #7a7a7a;
+}
+
+* {
+    font-family: 'Arial Narrow Regular';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 @font-face {
