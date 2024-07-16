@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --background: #efefef;
+    --white: #ffffff;
+    --red: #fc0049;
+    --blue: #0058fe;
+    --green: #958a0c;
+    --black-text: #000000;
+    --gray-text: #6c6c6c;
+}
+
+@font-face {
+    font-family: 'Arial Narrow Regular';
+    src: url('assets/fonts/arial-narrow-regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Arial Narrow Italic';
+    src: url('assets/fonts/arial-narrow-italic.ttf') format('truetype');
+}
