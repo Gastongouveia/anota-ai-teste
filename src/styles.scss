@@ -10,10 +10,14 @@
 }
 
 * {
-    font-family: 'Arial Narrow Regular';
+    font-family: 'Arial';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background);
 }
 
 @font-face {
@@ -22,6 +26,6 @@
 }
 
 @font-face {
-    font-family: 'Arial Narrow Italic';
-    src: url('assets/fonts/arial-narrow-italic.ttf') format('truetype');
+    font-family: 'News Gothic Italic';
+    src: url('assets/fonts/news-gothic-light-italic.otf') format('truetype');
 }

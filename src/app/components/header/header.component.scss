@@ -3,7 +3,9 @@ header {
     flex-direction: row;
     width: 100%;
     min-width: 100vw;
-    padding: 5px 6px;
+    padding-top: 2px;
+    background-color: var(--white);
+    box-shadow: 0px 2px 4px #7a7a7a57;
 }
 
 header .text-container {
@@ -20,33 +22,32 @@ header .user-name {
 }
 
 header .logo-container img {
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
 }
 
 header .text-container h3 {
-    font-family: 'Arial Narrow Regular';
+    font-family: 'Arial';
     color: var(--black-text);
     font-weight: normal;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 header .user-name p {
-    font-family: 'Arial Narrow Italic';
+    font-family: 'News Gothic Italic';
     color: var(--gray-text);
-    font-size: 0.9em;
 }
 
 header .left-line {
     width: 8px;
     height: 1px;
     background-color: var(--gray-text);
-    margin: 0 3px;
+    margin: 0 5px;
 }
 
 header .right-line {
-    width: 32px;
+    width: 36px;
     height: 1px;
     background-color: var(--gray-text);
-    margin: 0 3px;
+    margin: 0 5px;
 }
