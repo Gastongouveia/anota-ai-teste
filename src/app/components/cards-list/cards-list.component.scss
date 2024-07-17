@@ -23,3 +23,13 @@
 .search i {
     color: var(--gray-text);
 }
+
+.card-list {
+    padding: 1.5%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+}
