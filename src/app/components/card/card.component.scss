@@ -30,7 +30,7 @@
 }
 
 .card-content {
-    max-height: 160px;
+    max-height: 162px;
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -48,8 +48,42 @@
     border-radius: 50%;
     padding: 1px;
     display: flex;
+    transition: transform 0.5s ease;
 }
 
 .delete-button img {
     height: 8px;
+    transition: transform 0.5s ease;
+}
+
+.delete-button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    img {
+        height: 10px;
+        transform: rotateZ(-90deg);
+    }
+}
+
+.tag {
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    padding: 1px 2px;
+    border-radius: 5px;
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.landscape {
+    background-color: var(--blue);
+}
+
+.pizza {
+    background-color: var(--green);
+}
+
+.flower {
+    background-color: var(--red);
 }

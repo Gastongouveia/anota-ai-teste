@@ -1,6 +1,11 @@
 <div class="card">
-    <div class="delete-button">
+    <button class="delete-button" (click)="deleteItemHandler()">
         <img src="/assets/images/close.svg">
+    </button>
+    <div [ngClass]="tagClass" class="tag">
+        <span>
+            {{ tagText }}
+        </span>
     </div>
     <img src="{{ item.img }}" alt="{{ item.title }}">
     <div class="card-content">

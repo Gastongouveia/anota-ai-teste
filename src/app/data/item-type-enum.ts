@@ -1,11 +1,17 @@
 export enum ItemType {
-    PAISAGEM = '1',
-    FLOR = '2',
+    LANDSCAPE = '1',
+    FLOWER = '2',
     PIZZA = '3',
 }
 
 export const ItemTypeLabels = {
-    [ItemType.PAISAGEM]: 'Paisagem',
-    [ItemType.FLOR]: 'Flor',
+    [ItemType.LANDSCAPE]: 'Paisagem',
+    [ItemType.FLOWER]: 'Flor',
     [ItemType.PIZZA]: 'Pizza',
+};
+
+export const ItemTypeClass = {
+    [ItemType.LANDSCAPE]: 'landscape',
+    [ItemType.FLOWER]: 'flower',
+    [ItemType.PIZZA]: 'pizza',
 };

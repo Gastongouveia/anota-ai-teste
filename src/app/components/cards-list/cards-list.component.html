@@ -1,11 +1,11 @@
 <section>
-    <form class="search" action="">
-        <input type="text">
+    <form class="search">
+        <input type="text" name="searchText" (input)=inputChange($event)>
         <button>
             <i class="fa fa-search" aria-hidden="true"></i>
         </button>
     </form>
 </section>
 <section class="card-list">
-    <app-card *ngFor="let item of items" [item]="item"></app-card>
+    <app-card *ngFor="let item of items | filter: searchText" [item]="item" (deleteItem)="deleteItem(item)"></app-card>
 </section>
